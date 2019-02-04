@@ -15,8 +15,7 @@
     - Undirected = N * (N - 1) / 2
 - Describe the levels of connectivity a graph can have (strongly connected, weakly connected).
     - Strongly connected : Path from any vertex to any other vertex
-- What are cycles?
-    - 
+-  What are cycles?
 - What are some naive ways we can store and traverse graphs? Be able to discuss time/space complexity of these approaches, and what issues we may face.  
 - What are the three **primary** Fielding constraints? (Bonus if you can say who Fielding is!)
 - What sub-constraints make up a **Uniform Interface**
