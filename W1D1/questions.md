@@ -18,10 +18,22 @@
 -  What are cycles?
 - What are some naive ways we can store and traverse graphs? Be able to discuss time/space complexity of these approaches, and what issues we may face.  
 - What are the three **primary** Fielding constraints? (Bonus if you can say who Fielding is!)
+    - `Roy T. Fielding`
+    - Client-server
+    - Stateless
+    - Uniform interface
 - What sub-constraints make up a **Uniform Interface**
+   - identification of resources
+   - manipulation of resources through representations
+   - self-descriptive messages
+   - caching, layered system, and code on demand
 - Walk through an arbitrary example of a RESTful request/response cycle, and describe _**what**_ makes it RESTful
 - Give a high level overview of what an object's prototype represents
 - What are the differences between the `__proto__` and `prototype` attributes?
+    - __proto__ is the actual object that is used in the lookup chain to resolve methods, etc.  prototype is the object that is used to build __proto__ when you create an object with `new`:
+
+`( new Foo ).__proto__ === Foo.prototype;
+( new Foo ).prototype === undefined;`
 - What happens when we **do** or **don't** explicity set an object's prototype?
 - What is an object's **default** prototype?
 - What are the valid values for an object's prototype?
