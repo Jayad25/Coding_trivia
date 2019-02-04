@@ -1,10 +1,22 @@
 - How do we define a graph mathematically?
+    - G = (V,E) v- verticies and E - Edges
 - What is the difference between directed, undirected, weighted, and unweighted?
+    - directed Graph : Edges with direction or flow (one direction)
+    - undirected Graph : Edges without direction (two - direction)
+    - weighted Graph : each edge assigned some cost
+    - unweighted Graph: Edges with no cost
 - Give an example of various types of graphs (Weighted Undirected, Unweighted Directed, Unweighted Undirected, etc.)
+
 - What makes a graph a simple graph? What attributes would make it not simple?
+    - A simple graph is an undirected graph with neither multiple edges nor loops.
+    - multiple edges and directed graph
 - What is the maximum number of edges in a directed simple graph? Undirected simple graph? Answer should be in terms of `N`
+    - Directed = N * (N - 1)
+    - Undirected = N * (N - 1) / 2
 - Describe the levels of connectivity a graph can have (strongly connected, weakly connected).
+    - Strongly connected : Path from any vertex to any other vertex
 - What are cycles?
+    - 
 - What are some naive ways we can store and traverse graphs? Be able to discuss time/space complexity of these approaches, and what issues we may face.  
 - What are the three **primary** Fielding constraints? (Bonus if you can say who Fielding is!)
 - What sub-constraints make up a **Uniform Interface**
