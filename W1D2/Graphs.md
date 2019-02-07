@@ -9,6 +9,8 @@
     - Taking O(n2)
 -  Give a high level overview of an Adjacency List
 -  What benefits do we get from an Adjacency List?
+        - Space Complexity O(n)
+        - Implemented using Linkedlists
 - What are the benefits of a Javascript closure?
 - Formally define a Javascript closure
 -  Give an example of a closure
