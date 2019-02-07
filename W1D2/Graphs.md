@@ -1,7 +1,12 @@
 
 -  Give a high level overview of an Adjacency Matrix
 -  If we were only concerned about time complexity, is an Adjacency Matrix efficient? Why/why not? 
+    - Efficient
+    - finding edge will take O(n)
+    - find two edges  connected will take O(1)
 -  If we were only concerned about space complexity, is an Adjacency Matrix efficient? Why/why not?
+    - No
+    - Taking O(n2)
 -  Give a high level overview of an Adjacency List
 -  What benefits do we get from an Adjacency List?
 - What are the benefits of a Javascript closure?
